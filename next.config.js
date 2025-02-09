@@ -19,9 +19,6 @@ const nextConfig = {
   experimental: {
     forceSwcTransforms: false
   },
-  // Generate static output
-  output: 'export',
-  // Disable server components and API routes for static export
   typescript: {
     ignoreBuildErrors: true
   },
