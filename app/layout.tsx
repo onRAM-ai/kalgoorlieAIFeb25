@@ -1,22 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Inter, Poppins } from 'next/font/google';
 import Script from 'next/script';
 import { ThemeProvider } from './hooks/useTheme';
-
-// Optimize font loading
-const inter = Inter({ 
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap'
-});
-
-const poppins = Poppins({ 
-  weight: ['400', '500', '600', '700'],
-  subsets: ['latin'],
-  variable: '--font-poppins',
-  display: 'swap'
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://kalgoorlie.ai'),
@@ -101,17 +86,31 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Google Fonts - Manual Load */}
+        <link
+          rel="preconnect"
+          href="https://fonts.googleapis.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+
+        {/* FontAwesome */}
         <link 
           rel="stylesheet" 
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
         />
-        <link 
-          rel="preconnect" 
-          href="https://fonts.gstatic.com" 
-          crossOrigin="anonymous" 
-        />
+
+        {/* Structured Data for SEO */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -141,7 +140,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${inter.variable} ${poppins.variable}`}>
+      <body>
         <ThemeProvider>
           {children}
         </ThemeProvider>
