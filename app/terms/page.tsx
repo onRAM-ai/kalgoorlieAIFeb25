@@ -80,13 +80,13 @@ export default function TermsOfService() {
             <p className="text-text-secondary">
               For legal inquiries, please contact us at:
               <br />
-              <a href="mailto:legal@kalgoorlie-ai.com" className="text-primary hover:text-primary/80 transition-colors">
-                legal@kalgoorlie-ai.com
+              <a href="mailto:marno@kalgoorlie.ai" className="text-primary hover:text-primary/80 transition-colors">
+                marno@kalgoorlie.ai
               </a>
               <br />
-              Phone: [Your Phone Number]
+              Phone: 0409 913 694
               <br />
-              Address: [Your Business Address]
+              Address: 140 Hannan Street 
             </p>
           </section>
         </div>
