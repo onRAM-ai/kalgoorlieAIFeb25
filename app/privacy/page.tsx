@@ -92,13 +92,13 @@ export default function PrivacyPolicy() {
             <p className="text-text-secondary">
               For privacy-related inquiries, please contact our Privacy Officer at:
               <br />
-              <a href="mailto:privacy@kalgoorlie-ai.com" className="text-primary hover:text-primary/80 transition-colors">
-                privacy@kalgoorlie-ai.com
+              <a href="mailto:marno@kalgoorlie.ai" className="text-primary hover:text-primary/80 transition-colors">
+                marno@kalgoorlie.ai
               </a>
               <br />
-              Phone: [Your Phone Number]
+              Phone: 0409 913 694
               <br />
-              Address: [Your Business Address]
+              Address: 140 Hannan Street, Kalgoorlie 6430 WA
             </p>
           </section>
         </div>
