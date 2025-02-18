@@ -86,7 +86,7 @@ export default function TermsOfService() {
               <br />
               Phone: 0409 913 694
               <br />
-              Address: 140 Hannan Street 
+              Address: 140 Hannan Street, Kalgoorlie 6430 WA
             </p>
           </section>
         </div>
