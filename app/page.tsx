@@ -16,8 +16,8 @@ export default function Home() {
       icon: <i className="fas fa-gears" aria-hidden="true" />,
     },
     {
-      title: "AI Workshop & Training",
-      description: "Empower your team with hands-on AI training and workshops to build organisational capabilities.",
+      title: "AI Workshop & IT Training",
+      description: "Empower your team with hands-on training and workshops to build organisational capabilities.",
       icon: <i className="fas fa-graduation-cap" aria-hidden="true" />,
     }
   ];
